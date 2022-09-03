@@ -49,9 +49,13 @@ h2 {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
-  position: relative;
+  position: absolute;
   left: 20%;
   top: 20%;
+}
+
+.image-fix {
+  position: relative;
 }
 
 /* Promotion Section */
@@ -114,14 +118,12 @@ h2 {
 #title {
   background-color: #FF4C68;
   color: white;
-  position: relative;
-  z-index: -1;
-  max-height: 900px;
 }
 
 #features {
   padding: 7% 15%;
   background-color: white;
+  position: relative;
 }
 
 #testimonials {
